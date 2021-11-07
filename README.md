@@ -15,7 +15,7 @@ git config --global user.email "820029885@qq.com"
 # 一些错误的解决方法
 // Failed to connect to github.com port 443:connection timed out  
 // 查找Internet属性，选择“连接”那个选项，然后再点局域网设置，就可以看到代理端口号和地址  
-全局代理：
+全局代理： 
 git config --global http.proxy http://127.0.0.1:7890  
 git config --global https.proxy http://127.0.0.1:7890
 
